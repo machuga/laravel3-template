@@ -1,0 +1,24 @@
+{
+    "hash": "d638d3debdfb7b0abf1d92bc3cf17d29",
+    "packages": [
+        {
+            "package": "symfony/yaml",
+            "version": "2.0.x-dev",
+            "source-reference": "v2.0.17",
+            "commit-date": "1341837830"
+        }
+    ],
+    "packages-dev": [
+        {
+            "package": "mockery/mockery",
+            "version": "0.7.2"
+        }
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": [
+
+    ]
+}
