@@ -174,3 +174,13 @@ if ( ! Request::cli() and Config::get('session.driver') !== '')
 {
 	Session::load();
 }
+
+IoC::singleton('yaml_parser', function() {
+	return new \Symfony\Component\Yaml\Parser();
+});
+
+IoC::singleton('yaml_dumper', function() {
+	return new \Symfony\Component\Yaml\Dumper();
+});
+
+
